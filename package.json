@@ -1,0 +1,27 @@
+{
+  "name": "chriskinch-app",
+  "version": "1.0.0",
+  "description": "Client side application for chriskinch.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chriskinch/chriskinch-app.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chriskinch/chriskinch-app/issues"
+  },
+  "homepage": "https://github.com/chriskinch/chriskinch-app#readme",
+  "dependencies": {
+    "next": "^8.0.1",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
