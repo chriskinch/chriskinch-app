@@ -1,7 +1,16 @@
+import Link from 'next/link'
+
 const Header = () => (
     <header>
         <div>
-            Hello. I'm Chris Kinch. Designer, developer, Drupal themer &amp; all-round geek.
+            <ul>
+                <li>
+                    <Link href="/"><a>Home</a></Link> |
+                </li>
+                <li>
+                    <Link href="/about"><a>About</a></Link> |
+                </li>
+            </ul>
         </div>
     </header>
 );

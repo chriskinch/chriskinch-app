@@ -1,8 +1,9 @@
-import Header from '../components/Header';
-
-export default () => (
+function Home() {
+  return (
     <div>
-        <div>Welcome to next.js!</div>
-        <Header />
+      <p>Hello. I'm Chris Kinch. Designer, developer, Drupal themer &amp; all-round geek.</p>
     </div>
-)
+  )
+}
+
+export default Home
